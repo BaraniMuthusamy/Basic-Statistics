@@ -1,0 +1,13 @@
+
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+import statistics
+Marks=[34,36,36,38,38,39,39,40,40,41,41,41,41,42,42,45,49,56]
+stat.mean(Marks)
+stat.median(Marks)
+stat.variance(Marks)
+stat.stdev(Marks)
+plt.hist(Marks, color='g')
+plt.grid()
+plt.show()
